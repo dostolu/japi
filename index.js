@@ -130,7 +130,7 @@ function japi(config, host) {
   host.error = error;
 
   host.middleware = (req, res, next) => {
-    const middleware = res.jsend = (err, json) => {
+    const middleware = res.japi = (err, json) => {
       res.json(fromArguments(err, json));
     };
 
