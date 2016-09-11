@@ -1,0 +1,34 @@
+{
+  "name": "@dostolu/japi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:eslint && npm run test:app",
+    "test:eslint": "eslint .",
+    "test:app": "jasmine-node --verbose index.spec.js",
+    "postpublish": "greenkeeper-postpublish"
+  },
+  "engines": {
+    "node": ">= 6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dostolu/japi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dostolu/japi/issues"
+  },
+  "homepage": "https://github.com/dostolu/japi#readme",
+  "devDependencies": {
+    "greenkeeper-postpublish": "^1.0.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.1.0",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.10.3",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "jasmine-node": "^1.14.5"
+  }
+}
