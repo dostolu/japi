@@ -26,7 +26,7 @@
     "greenkeeper-postpublish": "^1.0.1",
     "chai": "^3.5.0",
     "eslint": "^3.1.0",
-    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-config-airbnb-base": "^7.2.0",
     "eslint-plugin-import": "^1.10.3",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "jasmine-node": "^1.14.5"
