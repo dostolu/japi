@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test:eslint && npm run test:app",
     "test:eslint": "eslint .",
-    "test:app": "jasmine-node --verbose index.spec.js",
+    "test:app": "mocha index.spec.js",
     "postpublish": "greenkeeper-postpublish"
   },
   "engines": {
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/dostolu/japi#readme",
   "devDependencies": {
-    "greenkeeper-postpublish": "^1.0.1",
     "chai": "^3.5.0",
-    "eslint": "^3.1.0",
+    "eslint": "^3.8.0",
     "eslint-config-airbnb-base": "^9.0.0",
-    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "jasmine-node": "^1.14.5"
+    "greenkeeper-postpublish": "^1.0.1",
+    "mocha": "^3.1.2"
   }
 }
